@@ -1,0 +1,11 @@
+  .flextest { 
+   display: flex;
+    background-color: lime;
+    padding: 350px 350px;
+    border: 2px solid rgb(0, 26, 255);
+    gap: 8px;
+}
+.flexone div{
+    background-color: blue;
+    flex: 1;
+}
