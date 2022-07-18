@@ -1,11 +1,94 @@
-  .flextest { 
-   display: flex;
-    background-color: lime;
-    padding: 350px 350px;
-    border: 2px solid rgb(0, 26, 255);
-    gap: 8px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #1f2937 ;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.flexone div{
-    background-color: blue;
+.header{
+    display: flex;
+    justify-content: space-between ;
+    height: 50px;;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1f2937 ;
+    justify-content: space-between;
+    flex: auto;   
+  
+}
+.sec1{
     flex: 1;
+    color: #E5E7EB;
+    
+   
 }
+.img1{
+
+
+}
+
+.der-links{
+    display: flex;
+    gap: 26px;
+    color: white;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    flex: 1;
+   
+    
+}
+.sran{
+    background-color: white;
+    flex: auto;
+    height: auto;
+    width: auto;
+}
+.random, .action {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    
+}
+.action {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+    
+}
+.call{
+    display: flex;
+    background-color: #3882f6;
+
+}
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    display: flex;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: azure;
+    height: 25px;;
+    padding: 16px;
+    width: auto;
+    background-color: lightblue
+  }
+  h2
