@@ -1,39 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    background-color: #1f2937 ;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+    background-color: #1f2937;
+    /* height: 100%;
+    width: 100%; */
+    padding: 20px;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .header{
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between ;
     height: 50px;;
 }
 .content{
+    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: #1f2937 ;
-    justify-content: space-between;
-    flex: auto;   
+    gap: 32px;
+   
   
 }
 .sec1{
-    flex: 1;
-    color: #E5E7EB;
-    
-   
+    background-color: #1f2937;
+    display: flex;
+    gap: 156px;
+   color: #E5E7EB; 
+   flex-grow: 1;
 }
-.img1{
-
+.sec1 .title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.sec1 article{
+    font-size: 18px;
+    font color:#E5E7EB; ;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    height: 200px;
+    width: 430px;
+}
+.logo{
+    width: 24px;
+    height: 24px;
 
 }
 
@@ -45,23 +61,37 @@ body {
 .quote{
     display: flex;
     background-color: #E5E7EB;
-    flex: 1;
+    flex:auto;
+    flex-grow: 1;
    
     
 }
-.sran{
-    background-color: white;
-    flex: auto;
-    height: auto;
-    width: auto;
-}
-.random, .action {
+
+
+
+.random{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    flex: 1;
+    flex-direction: column;
+    gap: 32px;
+   
     
+} 
+.info{
+    display: flex;
+    justify-content: space-around;
 }
+.random .titulo{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.imgran{
+    width: 100px;
+}
+
 .action {
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -91,4 +121,17 @@ ul {
     width: auto;
     background-color: lightblue
   }
-  h2
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.img1{
+    height: 250px;
+    width: 500px;
+   
+}
+
+.imgran img{
+    border: solid cyan;
+}
